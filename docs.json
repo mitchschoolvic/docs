@@ -33,23 +33,17 @@
             ]
           },
           {
-            "group": "Hardware",
-            "pages": [
-              "essentials/atem",
-              "essentials/blackmagic-hyperdeck",
-              "essentials/blackmagic-ultimatte",
-              "essentials/sony-fx3",
-              "essentials/ursa-mini-46k",
-              "essentials/mac-mini"
-            ]
-          },
-          {
             "group": "Software",
             "pages": [
               "essentials/qlab",
               "essentials/bitfocus-companion",
-              "essentials/atem-software",
-              "essentials/switchresx",
+              "essentials/atem-control-software",
+              "essentials/switchresx"
+            ]
+          },
+          {
+            "group": "Custom Apps",
+            "pages": [
               "essentials/studio-guide",
               "essentials/auto-ftp-transfer",
               "essentials/video-processor",
@@ -57,6 +51,39 @@
               "essentials/atem-media-pool-uploader",
               "essentials/decimator-controller",
               "essentials/desk-controller"
+            ]
+          },
+          {
+            "group": "Hardware",
+            "pages": [
+              "essentials/atem",
+              "hardware/video-mixing-recording/blackmagic-atem-constellation",
+              "hardware/video-mixing-recording/blackmagic-atem-mini",
+              "hardware/video-mixing-recording/blackmagic-hyperdeck",
+              "hardware/video-mixing-recording/blackmagic-ultimatte",
+              "hardware/video-converters/decimator-md-hx",
+              "hardware/video-converters/blackmagic-hdmi-sdi-converters",
+              "hardware/video-converters/blackmagic-thunderbolt-capture",
+              "hardware/computer-usb-control/mac-mini",
+              "hardware/computer-usb-control/streamdeck-xl",
+              "hardware/computer-usb-control/streamdeck-mini",
+              "hardware/computer-usb-control/streamdeck-pedal",
+              "hardware/computer-usb-control/usb-c-dock",
+              "hardware/computer-usb-control/usb-dmx-controller",
+              "hardware/cameras/sony-fx3",
+              "hardware/cameras/ursa-mini",
+              "hardware/cameras/canon-200d",
+              "hardware/lighting/nanlite-60-spotlight",
+              "hardware/lighting/nanlite-150-spotlight",
+              "hardware/lighting/nanlite-200-spotlight",
+              "hardware/lighting/nanlite-panel-672ii",
+              "hardware/lighting/aputure-nova-p300c",
+              "hardware/audio/rode-ntg-3",
+              "hardware/audio/sony-xlr-mount",
+              "hardware/audio/logitech-speakers",
+              "hardware/tv-monitors/philips-27-inch-monitor",
+              "hardware/tv-monitors/tcl-led-tv",
+              "hardware/networking/network-switch"
             ]
           }
         ]
