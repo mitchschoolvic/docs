@@ -11,33 +11,41 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
-            "icon": "rocket",
+            "group": "Software",
+            "icon": "code",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "icon": "book-open",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              {
+                "group": "Commercial Apps",
+                "icon": "shopping-bag",
+                "pages": [
+                  "software/qlab",
+                  "software/bitfocus-companion",
+                  "software/atem-control-software",
+                  "software/switchresx"
+                ]
+              },
+              {
+                "group": "Custom Apps",
+                "icon": "gears",
+                "pages": [
+                  "software/studio-guide",
+                  "software/auto-ftp-transfer",
+                  "software/video-processor",
+                  "software/rclone-uploader",
+                  "software/atem-media-pool-uploader",
+                  "software/decimator-controller",
+                  "software/desk-controller"
+                ]
+              }
             ]
           },
           {
             "group": "Hardware",
-            "icon": "cpu",
-            "sections": [
+            "icon": "computer-desktop",
+            "pages": [
               {
                 "group": "Video Mixing & Recording",
                 "icon": "video",
@@ -50,7 +58,7 @@
               },
               {
                 "group": "Video Converters",
-                "icon": "plug",
+                "icon": "arrows-left-right",
                 "pages": [
                   "hardware/decimator-md-hx",
                   "hardware/blackmagic-hdmi-sdi-converters",
@@ -59,7 +67,7 @@
               },
               {
                 "group": "Computer and USB Control",
-                "icon": "computer-desktop",
+                "icon": "usb",
                 "pages": [
                   "hardware/mac-mini",
                   "hardware/streamdeck-xl",
@@ -114,80 +122,10 @@
                 ]
               }
             ]
-          },
-          {
-            "group": "Software",
-            "icon": "code",
-            "sections": [
-              {
-                "group": "Software",
-                "icon": "terminal",
-                "pages": [
-                  "software/qlab",
-                  "software/bitfocus-companion",
-                  "software/atem-control-software",
-                  "software/switchresx"
-                ]
-              },
-              {
-                "group": "Custom Apps",
-                "icon": "gears",
-                "pages": [
-                  "software/studio-guide",
-                  "software/auto-ftp-transfer",
-                  "software/video-processor",
-                  "software/rclone-uploader",
-                  "software/atem-media-pool-uploader",
-                  "software/decimator-controller",
-                  "software/desk-controller"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "icon": "file-code",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "icon": "code",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
