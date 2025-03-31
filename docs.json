@@ -36,11 +36,28 @@
             "group": "Hardware",
             "pages": [
               "essentials/atem",
+              "essentials/blackmagic-hyperdeck",
+              "essentials/blackmagic-ultimatte",
+              "essentials/sony-fx3",
+              "essentials/ursa-mini-46k",
+              "essentials/mac-mini"
+            ]
           },
           {
             "group": "Software",
             "pages": [
               "essentials/qlab",
+              "essentials/bitfocus-companion",
+              "essentials/atem-software",
+              "essentials/switchresx",
+              "essentials/studio-guide",
+              "essentials/auto-ftp-transfer",
+              "essentials/video-processor",
+              "essentials/rclone-uploader",
+              "essentials/atem-media-pool-uploader",
+              "essentials/decimator-controller",
+              "essentials/desk-controller"
+            ]
           }
         ]
       },
