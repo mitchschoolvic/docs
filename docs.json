@@ -9,22 +9,15 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
+        "dropdown": "Software",
+        "icon": "code",
+        "description": "Software applications and tools",
         "groups": [
           {
-            "group": "Get Started",
-            "icon": "rocket",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
             "group": "Software",
-            "icon": "code",
+            "icon": "terminal",
             "pages": [
               "software/qlab",
               "software/bitfocus-companion",
@@ -34,118 +27,97 @@
           },
           {
             "group": "Custom Apps",
-            "icon": "cube",
+            "icon": "gear",
             "pages": [
-              "custom-apps/studio-guide",
-              "custom-apps/auto-ftp-transfer",
-              "custom-apps/video-processor",
-              "custom-apps/rclone-uploader",
-              "custom-apps/atem-media-pool-uploader",
-              "custom-apps/decimator-controller",
-              "custom-apps/desk-controller"
-            ]
-          },
-          {
-            "group": "Hardware",
-            "icon": "computer-desktop",
-            "pages": [
-              {
-                "group": "Video Mixing & Recording",
-                "icon": "video",
-                "pages": [
-                  "hardware/video-mixing/blackmagic-atem-constellation",
-                  "hardware/video-mixing/blackmagic-atem-mini",
-                  "hardware/video-mixing/blackmagic-hyperdeck",
-                  "hardware/video-mixing/blackmagic-ultimatte"
-                ]
-              },
-              {
-                "group": "Video Converters",
-                "icon": "arrows-right-left",
-                "pages": [
-                  "hardware/converters/decimator-md-hx",
-                  "hardware/converters/blackmagic-hdmi-sdi-converters",
-                  "hardware/converters/blackmagic-thunderbolt-capture"
-                ]
-              },
-              {
-                "group": "Computer and USB Control",
-                "icon": "usb",
-                "pages": [
-                  "hardware/control/mac-mini",
-                  "hardware/control/streamdeck-xl",
-                  "hardware/control/streamdeck-mini",
-                  "hardware/control/streamdeck-pedal",
-                  "hardware/control/usb-c-dock",
-                  "hardware/control/usb-dmx-controller"
-                ]
-              },
-              {
-                "group": "Cameras",
-                "icon": "camera",
-                "pages": [
-                  "hardware/cameras/sony-fx3",
-                  "hardware/cameras/ursa-mini",
-                  "hardware/cameras/canon-200d"
-                ]
-              },
-              {
-                "group": "Lighting",
-                "icon": "lightbulb",
-                "pages": [
-                  "hardware/lighting/nanlite-60-spotlight",
-                  "hardware/lighting/nanlite-150-spotlight",
-                  "hardware/lighting/nanlite-200-spotlight",
-                  "hardware/lighting/nanlite-panel-672ii",
-                  "hardware/lighting/aputure-nova-p300c"
-                ]
-              },
-              {
-                "group": "Audio",
-                "icon": "microphone",
-                "pages": [
-                  "hardware/audio/rode-ntg-3",
-                  "hardware/audio/sony-xlr-mount",
-                  "hardware/audio/logitech-speakers"
-                ]
-              },
-              {
-                "group": "TV and Monitors",
-                "icon": "tv",
-                "pages": [
-                  "hardware/displays/philips-27-inch-monitor",
-                  "hardware/displays/tcl-led-tv"
-                ]
-              },
-              {
-                "group": "Networking",
-                "icon": "network-wired",
-                "pages": [
-                  "hardware/networking/network-switch"
-                ]
-              }
+              "software/studio-guide",
+              "software/auto-ftp-transfer",
+              "software/video-processor",
+              "software/rclone-uploader",
+              "software/atem-media-pool-uploader",
+              "software/decimator-controller",
+              "software/desk-controller"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "dropdown": "Hardware",
+        "icon": "cpu-chip",
+        "description": "Hardware equipment and devices",
         "groups": [
           {
-            "group": "API Documentation",
-            "icon": "book-open",
+            "group": "Video Mixing & Recording",
+            "icon": "video",
             "pages": [
-              "api-reference/introduction"
+              "hardware/blackmagic-atem-constellation",
+              "hardware/blackmagic-atem-mini",
+              "hardware/blackmagic-hyperdeck",
+              "hardware/blackmagic-ultimatte"
             ]
           },
           {
-            "group": "Endpoint Examples",
-            "icon": "code",
+            "group": "Video Converters",
+            "icon": "arrows-left-right",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "hardware/decimator-md-hx",
+              "hardware/blackmagic-hdmi-sdi-converters",
+              "hardware/blackmagic-thunderbolt-capture"
+            ]
+          },
+          {
+            "group": "Computer and USB Control",
+            "icon": "computer-desktop",
+            "pages": [
+              "hardware/mac-mini",
+              "hardware/streamdeck-xl",
+              "hardware/streamdeck-mini",
+              "hardware/streamdeck-pedal",
+              "hardware/usb-c-dock",
+              "hardware/usb-dmx-controller"
+            ]
+          },
+          {
+            "group": "Cameras",
+            "icon": "camera",
+            "pages": [
+              "hardware/sony-fx3",
+              "hardware/ursa-mini",
+              "hardware/canon-200d"
+            ]
+          },
+          {
+            "group": "Lighting",
+            "icon": "lightbulb",
+            "pages": [
+              "hardware/nanlite-60-spotlight",
+              "hardware/nanlite-150-spotlight",
+              "hardware/nanlite-200-spotlight",
+              "hardware/nanlite-panel-672ii",
+              "hardware/aputure-nova-p300c"
+            ]
+          },
+          {
+            "group": "Audio",
+            "icon": "microphone",
+            "pages": [
+              "hardware/rode-ntg-3",
+              "hardware/sony-xlr-mount",
+              "hardware/logitech-speakers"
+            ]
+          },
+          {
+            "group": "TV and Monitors",
+            "icon": "tv",
+            "pages": [
+              "hardware/philips-27-inch-monitor",
+              "hardware/tcl-led-tv"
+            ]
+          },
+          {
+            "group": "Networking",
+            "icon": "network-wired",
+            "pages": [
+              "hardware/network-switch"
             ]
           }
         ]
