@@ -21,23 +21,23 @@
                 "group": "Commercial Apps",
                 "icon": "shopping-bag",
                 "pages": [
-                  "software/qlab",
-                  "software/bitfocus-companion",
-                  "software/atem-control-software",
-                  "software/switchresx"
+                  {"title": "QLab", "href": "software/qlab"},
+                  {"title": "Bitfocus Companion", "href": "software/bitfocus-companion"},
+                  {"title": "ATEM Control Software", "href": "software/atem-control-software"},
+                  {"title": "SwitchResX", "href": "software/switchresx"}
                 ]
               },
               {
                 "group": "Custom Apps",
                 "icon": "gears",
                 "pages": [
-                  "software/studio-guide",
-                  "software/auto-ftp-transfer",
-                  "software/video-processor",
-                  "software/rclone-uploader",
-                  "software/atem-media-pool-uploader",
-                  "software/decimator-controller",
-                  "software/desk-controller"
+                  {"title": "Studio Guide", "href": "software/studio-guide"},
+                  {"title": "Auto FTP Transfer", "href": "software/auto-ftp-transfer"},
+                  {"title": "Video Processor", "href": "software/video-processor"},
+                  {"title": "Rclone Uploader", "href": "software/rclone-uploader"},
+                  {"title": "ATEM Media Pool Uploader", "href": "software/atem-media-pool-uploader"},
+                  {"title": "Decimator Controller", "href": "software/decimator-controller"},
+                  {"title": "Desk Controller", "href": "software/desk-controller"}
                 ]
               }
             ]
@@ -50,75 +50,75 @@
                 "group": "Video Mixing & Recording",
                 "icon": "video",
                 "pages": [
-                  "hardware/blackmagic-atem-constellation",
-                  "hardware/blackmagic-atem-mini",
-                  "hardware/blackmagic-hyperdeck",
-                  "hardware/blackmagic-ultimatte"
+                  {"title": "Blackmagic ATEM Constellation", "href": "hardware/blackmagic-atem-constellation"},
+                  {"title": "Blackmagic ATEM Mini", "href": "hardware/blackmagic-atem-mini"},
+                  {"title": "Blackmagic Hyperdeck", "href": "hardware/blackmagic-hyperdeck"},
+                  {"title": "Blackmagic Ultimatte", "href": "hardware/blackmagic-ultimatte"}
                 ]
               },
               {
                 "group": "Video Converters",
                 "icon": "arrows-left-right",
                 "pages": [
-                  "hardware/decimator-md-hx",
-                  "hardware/blackmagic-hdmi-sdi-converters",
-                  "hardware/blackmagic-thunderbolt-capture"
+                  {"title": "Decimator MD-HX", "href": "hardware/decimator-md-hx"},
+                  {"title": "Blackmagic HDMI SDI Converters", "href": "hardware/blackmagic-hdmi-sdi-converters"},
+                  {"title": "Blackmagic Thunderbolt Capture", "href": "hardware/blackmagic-thunderbolt-capture"}
                 ]
               },
               {
                 "group": "Computer and USB Control",
                 "icon": "usb",
                 "pages": [
-                  "hardware/mac-mini",
-                  "hardware/streamdeck-xl",
-                  "hardware/streamdeck-mini",
-                  "hardware/streamdeck-pedal",
-                  "hardware/usb-c-dock",
-                  "hardware/usb-dmx-controller"
+                  {"title": "Mac Mini", "href": "hardware/mac-mini"},
+                  {"title": "Streamdeck XL", "href": "hardware/streamdeck-xl"},
+                  {"title": "Streamdeck Mini", "href": "hardware/streamdeck-mini"},
+                  {"title": "Streamdeck Pedal", "href": "hardware/streamdeck-pedal"},
+                  {"title": "USB-C Dock", "href": "hardware/usb-c-dock"},
+                  {"title": "USB DMX Controller", "href": "hardware/usb-dmx-controller"}
                 ]
               },
               {
                 "group": "Cameras",
                 "icon": "camera",
                 "pages": [
-                  "hardware/sony-fx3",
-                  "hardware/ursa-mini",
-                  "hardware/canon-200d"
+                  {"title": "Sony FX3", "href": "hardware/sony-fx3"},
+                  {"title": "URSA Mini", "href": "hardware/ursa-mini"},
+                  {"title": "Canon 200D", "href": "hardware/canon-200d"}
                 ]
               },
               {
                 "group": "Lighting",
                 "icon": "lightbulb",
                 "pages": [
-                  "hardware/nanlite-60-spotlight",
-                  "hardware/nanlite-150-spotlight",
-                  "hardware/nanlite-200-spotlight",
-                  "hardware/nanlite-panel-672ii",
-                  "hardware/aputure-nova-p300c"
+                  {"title": "Nanlite 60 Spotlight", "href": "hardware/nanlite-60-spotlight"},
+                  {"title": "Nanlite 150 Spotlight", "href": "hardware/nanlite-150-spotlight"},
+                  {"title": "Nanlite 200 Spotlight", "href": "hardware/nanlite-200-spotlight"},
+                  {"title": "Nanlite Panel 672II", "href": "hardware/nanlite-panel-672ii"},
+                  {"title": "Aputure Nova P300c", "href": "hardware/aputure-nova-p300c"}
                 ]
               },
               {
                 "group": "Audio",
                 "icon": "microphone",
                 "pages": [
-                  "hardware/rode-ntg-3",
-                  "hardware/sony-xlr-mount",
-                  "hardware/logitech-speakers"
+                  {"title": "Rode NTG-3", "href": "hardware/rode-ntg-3"},
+                  {"title": "Sony XLR Mount", "href": "hardware/sony-xlr-mount"},
+                  {"title": "Logitech Speakers", "href": "hardware/logitech-speakers"}
                 ]
               },
               {
                 "group": "TV and Monitors",
                 "icon": "tv",
                 "pages": [
-                  "hardware/philips-27-inch-monitor",
-                  "hardware/tcl-led-tv"
+                  {"title": "Philips 27 Inch Monitor", "href": "hardware/philips-27-inch-monitor"},
+                  {"title": "TCL LED TV", "href": "hardware/tcl-led-tv"}
                 ]
               },
               {
                 "group": "Networking",
                 "icon": "network-wired",
                 "pages": [
-                  "hardware/network-switch"
+                  {"title": "Network Switch", "href": "hardware/network-switch"}
                 ]
               }
             ]
