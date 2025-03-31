@@ -9,115 +9,161 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "Software",
-        "icon": "code",
-        "description": "Software applications and tools",
+        "tab": "Guides",
         "groups": [
           {
-            "group": "Software",
-            "icon": "terminal",
+            "group": "Get Started",
+            "icon": "rocket",
             "pages": [
-              "software/qlab",
-              "software/bitfocus-companion",
-              "software/atem-control-software",
-              "software/switchresx"
+              "introduction",
+              "quickstart",
+              "development"
             ]
           },
           {
-            "group": "Custom Apps",
-            "icon": "gear",
+            "group": "Essentials",
+            "icon": "book-open",
             "pages": [
-              "software/studio-guide",
-              "software/auto-ftp-transfer",
-              "software/video-processor",
-              "software/rclone-uploader",
-              "software/atem-media-pool-uploader",
-              "software/decimator-controller",
-              "software/desk-controller"
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Hardware",
+            "icon": "cpu",
+            "sections": [
+              {
+                "group": "Video Mixing & Recording",
+                "icon": "video",
+                "pages": [
+                  "hardware/blackmagic-atem-constellation",
+                  "hardware/blackmagic-atem-mini",
+                  "hardware/blackmagic-hyperdeck",
+                  "hardware/blackmagic-ultimatte"
+                ]
+              },
+              {
+                "group": "Video Converters",
+                "icon": "plug",
+                "pages": [
+                  "hardware/decimator-md-hx",
+                  "hardware/blackmagic-hdmi-sdi-converters",
+                  "hardware/blackmagic-thunderbolt-capture"
+                ]
+              },
+              {
+                "group": "Computer and USB Control",
+                "icon": "computer-desktop",
+                "pages": [
+                  "hardware/mac-mini",
+                  "hardware/streamdeck-xl",
+                  "hardware/streamdeck-mini",
+                  "hardware/streamdeck-pedal",
+                  "hardware/usb-c-dock",
+                  "hardware/usb-dmx-controller"
+                ]
+              },
+              {
+                "group": "Cameras",
+                "icon": "camera",
+                "pages": [
+                  "hardware/sony-fx3",
+                  "hardware/ursa-mini",
+                  "hardware/canon-200d"
+                ]
+              },
+              {
+                "group": "Lighting",
+                "icon": "lightbulb",
+                "pages": [
+                  "hardware/nanlite-60-spotlight",
+                  "hardware/nanlite-150-spotlight",
+                  "hardware/nanlite-200-spotlight",
+                  "hardware/nanlite-panel-672ii",
+                  "hardware/aputure-nova-p300c"
+                ]
+              },
+              {
+                "group": "Audio",
+                "icon": "microphone",
+                "pages": [
+                  "hardware/rode-ntg-3",
+                  "hardware/sony-xlr-mount",
+                  "hardware/logitech-speakers"
+                ]
+              },
+              {
+                "group": "TV and Monitors",
+                "icon": "tv",
+                "pages": [
+                  "hardware/philips-27-inch-monitor",
+                  "hardware/tcl-led-tv"
+                ]
+              },
+              {
+                "group": "Networking",
+                "icon": "network-wired",
+                "pages": [
+                  "hardware/network-switch"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Software",
+            "icon": "code",
+            "sections": [
+              {
+                "group": "Software",
+                "icon": "terminal",
+                "pages": [
+                  "software/qlab",
+                  "software/bitfocus-companion",
+                  "software/atem-control-software",
+                  "software/switchresx"
+                ]
+              },
+              {
+                "group": "Custom Apps",
+                "icon": "gears",
+                "pages": [
+                  "software/studio-guide",
+                  "software/auto-ftp-transfer",
+                  "software/video-processor",
+                  "software/rclone-uploader",
+                  "software/atem-media-pool-uploader",
+                  "software/decimator-controller",
+                  "software/desk-controller"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "dropdown": "Hardware",
-        "icon": "cpu-chip",
-        "description": "Hardware equipment and devices",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "Video Mixing & Recording",
-            "icon": "video",
+            "group": "API Documentation",
+            "icon": "file-code",
             "pages": [
-              "hardware/blackmagic-atem-constellation",
-              "hardware/blackmagic-atem-mini",
-              "hardware/blackmagic-hyperdeck",
-              "hardware/blackmagic-ultimatte"
+              "api-reference/introduction"
             ]
           },
           {
-            "group": "Video Converters",
-            "icon": "arrows-left-right",
+            "group": "Endpoint Examples",
+            "icon": "code",
             "pages": [
-              "hardware/decimator-md-hx",
-              "hardware/blackmagic-hdmi-sdi-converters",
-              "hardware/blackmagic-thunderbolt-capture"
-            ]
-          },
-          {
-            "group": "Computer and USB Control",
-            "icon": "computer-desktop",
-            "pages": [
-              "hardware/mac-mini",
-              "hardware/streamdeck-xl",
-              "hardware/streamdeck-mini",
-              "hardware/streamdeck-pedal",
-              "hardware/usb-c-dock",
-              "hardware/usb-dmx-controller"
-            ]
-          },
-          {
-            "group": "Cameras",
-            "icon": "camera",
-            "pages": [
-              "hardware/sony-fx3",
-              "hardware/ursa-mini",
-              "hardware/canon-200d"
-            ]
-          },
-          {
-            "group": "Lighting",
-            "icon": "lightbulb",
-            "pages": [
-              "hardware/nanlite-60-spotlight",
-              "hardware/nanlite-150-spotlight",
-              "hardware/nanlite-200-spotlight",
-              "hardware/nanlite-panel-672ii",
-              "hardware/aputure-nova-p300c"
-            ]
-          },
-          {
-            "group": "Audio",
-            "icon": "microphone",
-            "pages": [
-              "hardware/rode-ntg-3",
-              "hardware/sony-xlr-mount",
-              "hardware/logitech-speakers"
-            ]
-          },
-          {
-            "group": "TV and Monitors",
-            "icon": "tv",
-            "pages": [
-              "hardware/philips-27-inch-monitor",
-              "hardware/tcl-led-tv"
-            ]
-          },
-          {
-            "group": "Networking",
-            "icon": "network-wired",
-            "pages": [
-              "hardware/network-switch"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -164,7 +210,7 @@
     "socials": {
       "x": "https://x.com/mintlify",
       "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlif"
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
