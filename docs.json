@@ -15,7 +15,6 @@
         "groups": [
           {
             "group": "Software",
-            "icon": "code",
             "pages": [
               {
                 "group": "Commercial Apps",
@@ -29,7 +28,7 @@
               },
               {
                 "group": "Custom Apps",
-                "icon": "gears",
+                "icon": "code",
                 "pages": [
                   "software/studio-guide",
                   "software/auto-ftp-transfer",
