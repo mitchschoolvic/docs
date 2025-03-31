@@ -15,6 +15,7 @@
         "groups": [
           {
             "group": "Get Started",
+            "icon": "rocket",
             "pages": [
               "introduction",
               "quickstart",
@@ -22,68 +23,107 @@
             ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
             "group": "Software",
+            "icon": "code",
             "pages": [
-              "essentials/qlab",
-              "essentials/bitfocus-companion",
-              "essentials/atem-control-software",
-              "essentials/switchresx"
+              "software/qlab",
+              "software/bitfocus-companion",
+              "software/atem-control-software",
+              "software/switchresx"
             ]
           },
           {
             "group": "Custom Apps",
+            "icon": "cube",
             "pages": [
-              "essentials/studio-guide",
-              "essentials/auto-ftp-transfer",
-              "essentials/video-processor",
-              "essentials/rclone-uploader",
-              "essentials/atem-media-pool-uploader",
-              "essentials/decimator-controller",
-              "essentials/desk-controller"
+              "custom-apps/studio-guide",
+              "custom-apps/auto-ftp-transfer",
+              "custom-apps/video-processor",
+              "custom-apps/rclone-uploader",
+              "custom-apps/atem-media-pool-uploader",
+              "custom-apps/decimator-controller",
+              "custom-apps/desk-controller"
             ]
           },
           {
             "group": "Hardware",
+            "icon": "computer-desktop",
             "pages": [
-              "essentials/atem",
-              "hardware/video-mixing-recording/blackmagic-atem-constellation",
-              "hardware/video-mixing-recording/blackmagic-atem-mini",
-              "hardware/video-mixing-recording/blackmagic-hyperdeck",
-              "hardware/video-mixing-recording/blackmagic-ultimatte",
-              "hardware/video-converters/decimator-md-hx",
-              "hardware/video-converters/blackmagic-hdmi-sdi-converters",
-              "hardware/video-converters/blackmagic-thunderbolt-capture",
-              "hardware/computer-usb-control/mac-mini",
-              "hardware/computer-usb-control/streamdeck-xl",
-              "hardware/computer-usb-control/streamdeck-mini",
-              "hardware/computer-usb-control/streamdeck-pedal",
-              "hardware/computer-usb-control/usb-c-dock",
-              "hardware/computer-usb-control/usb-dmx-controller",
-              "hardware/cameras/sony-fx3",
-              "hardware/cameras/ursa-mini",
-              "hardware/cameras/canon-200d",
-              "hardware/lighting/nanlite-60-spotlight",
-              "hardware/lighting/nanlite-150-spotlight",
-              "hardware/lighting/nanlite-200-spotlight",
-              "hardware/lighting/nanlite-panel-672ii",
-              "hardware/lighting/aputure-nova-p300c",
-              "hardware/audio/rode-ntg-3",
-              "hardware/audio/sony-xlr-mount",
-              "hardware/audio/logitech-speakers",
-              "hardware/tv-monitors/philips-27-inch-monitor",
-              "hardware/tv-monitors/tcl-led-tv",
-              "hardware/networking/network-switch"
+              {
+                "group": "Video Mixing & Recording",
+                "icon": "video",
+                "pages": [
+                  "hardware/video-mixing/blackmagic-atem-constellation",
+                  "hardware/video-mixing/blackmagic-atem-mini",
+                  "hardware/video-mixing/blackmagic-hyperdeck",
+                  "hardware/video-mixing/blackmagic-ultimatte"
+                ]
+              },
+              {
+                "group": "Video Converters",
+                "icon": "arrows-right-left",
+                "pages": [
+                  "hardware/converters/decimator-md-hx",
+                  "hardware/converters/blackmagic-hdmi-sdi-converters",
+                  "hardware/converters/blackmagic-thunderbolt-capture"
+                ]
+              },
+              {
+                "group": "Computer and USB Control",
+                "icon": "usb",
+                "pages": [
+                  "hardware/control/mac-mini",
+                  "hardware/control/streamdeck-xl",
+                  "hardware/control/streamdeck-mini",
+                  "hardware/control/streamdeck-pedal",
+                  "hardware/control/usb-c-dock",
+                  "hardware/control/usb-dmx-controller"
+                ]
+              },
+              {
+                "group": "Cameras",
+                "icon": "camera",
+                "pages": [
+                  "hardware/cameras/sony-fx3",
+                  "hardware/cameras/ursa-mini",
+                  "hardware/cameras/canon-200d"
+                ]
+              },
+              {
+                "group": "Lighting",
+                "icon": "lightbulb",
+                "pages": [
+                  "hardware/lighting/nanlite-60-spotlight",
+                  "hardware/lighting/nanlite-150-spotlight",
+                  "hardware/lighting/nanlite-200-spotlight",
+                  "hardware/lighting/nanlite-panel-672ii",
+                  "hardware/lighting/aputure-nova-p300c"
+                ]
+              },
+              {
+                "group": "Audio",
+                "icon": "microphone",
+                "pages": [
+                  "hardware/audio/rode-ntg-3",
+                  "hardware/audio/sony-xlr-mount",
+                  "hardware/audio/logitech-speakers"
+                ]
+              },
+              {
+                "group": "TV and Monitors",
+                "icon": "tv",
+                "pages": [
+                  "hardware/displays/philips-27-inch-monitor",
+                  "hardware/displays/tcl-led-tv"
+                ]
+              },
+              {
+                "group": "Networking",
+                "icon": "network-wired",
+                "pages": [
+                  "hardware/networking/network-switch"
+                ]
+              }
             ]
           }
         ]
@@ -93,12 +133,14 @@
         "groups": [
           {
             "group": "API Documentation",
+            "icon": "book-open",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
             "group": "Endpoint Examples",
+            "icon": "code",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
